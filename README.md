@@ -82,7 +82,7 @@ Add to your `claude_desktop_config.json` or agent runner config:
   "mcpServers": {
     "genpark-reasoning-mcts-step-verity-evaluator-skill": {
       "command": "python",
-      "args": ["path/to/genpark-reasoning-mcts-step-verity-evaluator-skill/mcp_server.py"]
+      "args": ["/absolute/path/to/genpark-reasoning-mcts-step-verity-evaluator-skill/mcp_server.py"]
     }
   }
 }
